@@ -1,38 +1,7 @@
+@import"./header.css";
+
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-    height: 100vh;
-
-    background-color: #50647d;
-    background-image: url("../img/header/header-bg.jpg");
-    background-size: cover;
-    background-position: center;
-
-}
-
-.header-title {
-    font-weight: 700;
-    font-size: 56px;
-    margin-bottom: 25px;
-    line-height: 130%;
-    color: #fff;
-}
-
-.header-subtitle {
-    font-weight: 700px;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-}
 
