@@ -3,17 +3,21 @@ body {
 }
 
 .header {
+    position: relative;
+
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;/*выстраивает flex-элементы в колонку, основная ось - Y*/
+    justify-content: center;/*выравнивание по основной оси*/
+    align-items: center;/*выравнивание по поперечной оси*/
+
+    
 
     width: 100%;
     height: 100vh;
 
     background-color: #50647d;
     background-image: url("../img/header/header-bg.jpg");
-    background-size: cover;
+    background-size: cover;/*маштабирует чтобы не было пустых мест(областей)*/
     background-position: center;
 
 }
@@ -36,3 +40,12 @@ body {
     color: #fff;
 }
 
+.header-arrow {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
