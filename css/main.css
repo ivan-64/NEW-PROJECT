@@ -2,6 +2,16 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+}
+
+.none {
+    display: none !important;
+}
+
 .header {
     position: relative;
 
@@ -48,4 +58,54 @@ body {
     bottom: 30px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.portfolio {
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    padding-bottom: 70px;
+    color: #000;
+}
+
+.portfolio-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 540px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+
+.card:last-child, .card:nth-last-child(2)  {
+margin-bottom: 0;
+}
+
+.card-img {
+margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+    margin-bottom: 13px;
+}
+
+.card p {
+   font-size: 16px;
+   line-height: 130%;
+   color: #000; 
 }
